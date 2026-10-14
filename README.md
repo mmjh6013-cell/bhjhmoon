@@ -1,6 +1,6 @@
 # 📦 SAP SD Commercial Invoice & Programs Repository
 
-본 저장소는 SAP ERP / S/4HANA SD(Sales and Distribution) 모듈의 **Commercial Invoice (상업송장 발행)** 및 관련 SD 프로그램, **데이터 딕셔너리(Data Dictionary) 명세서**, Clean ABAP 가이드를 통합 관리합니다.
+본 저장소는 SAP ERP / S/4HANA SD(Sales and Distribution) 모듈의 **Commercial Invoice (상업송장 발행)** 및 관련 SD 프로그램, **데이터 딕셔너리(Data Dictionary) 명세서**, Clean ABAP 가이드, 그리고 **SAP S/4HANA 공식/참조 문서(PDF)**를 통합 관리합니다.
 
 ---
 
@@ -32,7 +32,14 @@
 - 📘 [**DATA_DICTIONARY_SPECIFICATION.md**](./DATA_DICTIONARY_SPECIFICATION.md) : **SD 모듈 16개 커스텀 테이블/구조체 통합 명세서** (ERD 다이어그램, 상세 필드 정의, 도메인 고정값 매핑)
 - 📂 [**dictionary/**](./dictionary/) : SE11 추출 원본 HTML 16개 파일 및 [README.md](./dictionary/README.md)
 
-### 5. 개발 표준 및 가이드
+### 5. SAP S/4HANA 참조 문서 (PDF)
+- 📂 [**pdf/**](./pdf/) : SAP S/4HANA 모듈별 공식 및 전문 참조 문서 (총 4권, 약 228MB)
+  - 📕 `EWM with SAP S4HANA Architecture and Programming.pdf` (18.5 MB)
+  - 📕 `Integrating Warehouse Management in SAP S4HANA.pdf` (76.9 MB)
+  - 📕 `Inventory Management with SAP S4HANA.pdf` (59.0 MB)
+  - 📕 `Materials Management with SAP S4HANA Business Processes and Configuration.pdf` (73.3 MB)
+
+### 6. 개발 표준 및 가이드
 - 📖 [**CleanABAP_kr.md**](./CleanABAP_kr.md) : Clean ABAP 한국어 개발 가이드라인
 
 ---
