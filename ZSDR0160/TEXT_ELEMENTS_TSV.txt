@@ -1,0 +1,73 @@
+T01	Search Criteria
+T02	File Upload
+T03	Upload Error List
+002	File Upload
+003	Select File
+005	Row
+F01	Sales Organization
+F02	Sales Office
+F03	Sales Group
+F04	Distribution Channel
+F05	Division
+F06	Affiliated Company
+C01	Customer
+C02	Name
+C03	PO Date
+C04	Affiliated Com. PO No
+C05	Customer PO No
+C06	Sales Order Type
+C07	Sales Order No
+C08	Sales Order ITEM No
+C09	Purchase Order No
+C10	Purchase Order Item
+C11	Payment Term
+C12	ETD
+C13	Closing Date
+C14	Customer Code
+C15	Material
+C16	Description
+C17	Qty
+C18	Unit
+C19	PO Unit Price
+C20	Amount
+C21	Master Unit Price
+C22	Currency
+C23	Status
+C24	Message
+B01	Create Sales Order
+B02	Create Purchase Order
+B06	Delete Sales Order
+M02	Do you want to create Sales Order(s)?
+M03	Do you want to create Purchase Order(s)?
+M05	Do you want to delete selected Sales Order(s)?
+M06	Processed: Success &1 / Failed &2
+S01	Sales Order &1 has been created.
+S02	Purchase Order &1 has been created.
+E01	Sales Office is not assigned to the selected Sales Area.
+E02	Sales Group is not assigned to the selected Sales Office.
+E03	Customer is not an Affiliated Company (Customer Group 08).
+E04	Unsupported file extension. Please upload a PDF or Excel file.
+E05	Excel upload logic will be activated after template confirmation.
+E06	EJP PDF layout is pending confirmation.
+E07	Unsupported Affiliated Company prefix in KNA1-NAME1.
+E08	PDF binary stream length mismatch.
+E09	PDF PO No prefix does not match Affiliated Company (KNA1-NAME1).
+E10	Invalid date format in uploaded file.
+E11	Invalid or non-existent Material Code.
+E12	Sales Order Type must be ZOR or ZKB.
+E13	Quantity must be greater than zero.
+E14	Access sequence not found for condition type ZSR1.
+E15	Access sequence steps not found for ZSR1.
+E16	Invalid unit price or currency conversion error.
+E17	Sales Order already exists for the selected row.
+E18	Only one Sales Order Type is allowed per Affiliated Com. PO No.
+E19	Failed to create Sales Order.
+E20	No Sales Order exists for the selected row.
+E21	Cannot delete Sales Order &1 because a Purchase Order already exists.
+E22	Please create a Sales Order before creating a Purchase Order.
+E23	Purchase Order already exists for Sales Order &1.
+E24	Purchase Order &1 is already linked to Sales Order &2.
+E25	Purchasing Info Record not found for material &1.
+E26	Condition PB00 not found for material &1.
+E27	Extension fields ZZVBELN / ZZVBELP not found in BAPI_TE_MEPOITEM.
+E28	Failed to create Purchase Order.
