@@ -1,0 +1,132 @@
+A01	Select
+A02	Pack No.
+A03	Material
+A04	Material Name
+A05	Closing Date
+A06	Customer PO
+A07	Qty
+A08	Unit
+A09	Net Weight
+A10	Gross Weight
+A11	Unit
+A12	Measurement
+A13	Unit
+A14	U/T Qty
+A15	C/T Qty
+A16	Unit Price
+A17	Amount
+A18	Curr.
+A19	Sales Order
+A20	Item No.
+A21	Select All
+A22	Deselect All
+A23	Check the item entries.
+A24	Unable to create the item grid.
+A25	Unable to refresh the item grid.
+A26	Deliv. Item
+A27	Message
+B01	Commercial Invoice and Packing List
+B02	Commercial Invoice
+B03	Packing List
+B04	Document Overview Off
+B05	Document Overview On
+E04	Enter a Shipping Point.
+E05	Enter a Planned GI Date.
+E06	Enter a Delivery Number.
+E07	Enter one Shipping Point using Include/Equal.
+E08	Enter one Delivery Number using Include/Equal.
+E09	Shipping Point does not exist.
+E13	A single valid currency is required for the invoice.
+H01	Customer
+H02	Ship to Location
+H03	Consignee Location
+H04	Bill to Location
+H05	Notify Party 1
+H06	Notify Party 2
+H07	Import Invoice No.
+H08	Remarks 1
+H09	Remarks 2
+H10	Delivery Type
+H11	Delivery No.
+H12	Total Amount
+H13	Packing Type
+H14	Print Form Option
+H15	Invoice No.
+H16	Date of Invoice
+H17	Payment Term
+H18	House Waybill
+H19	Master Waybill
+H20	Forwarder
+H21	Port of Loading
+H22	Discharging Port
+H23	Destination
+H24	Voyage No.
+H25	Freight Terms
+H26	Incoterms
+H27	On Board Date
+H28	ETA Date
+H29	Shipping Method
+H30	Package
+H31	(Package)
+H32	Measurement
+H33	Net Weight
+H34	Gross Weight
+H35	Shipping Remark
+N01	Delivery does not exist or does not match the selection.
+N02	No delivery items exist.
+N03	Unit conversion failed. Check material and unit master data.
+N04	Invalid item or negative quantity.
+N05	Maintain exactly one active ZSR2 or ZSR1 price per SO item.
+N06	Price must be quantity-based and in document currency.
+N07	Calculation failed. Check units, precision and numeric limits.
+N08	Saved invoice was not found.
+N09	Saved item does not match a delivery item. Check POSNR.
+N10	Save the invoice and all changes before copying.
+N11	Select a delivery with the same Ship-to Party.
+N12	Invoice copied. Review the items and save.
+N13	Unable to lock the invoice. It may be in use by another user.
+N14	Enter at least 3 characters in Name 4 for Ship-to Party.
+N15	Invoice numbering is not configured for this Sales Organization.
+N16	Unable to initialize invoice numbering. Check SNRO settings.
+N17	Invoice number range is exhausted or unavailable.
+N18	Enter change mode and correct calculation errors before saving.
+N19	Invalid or duplicate packing items. Check pack number and material.
+N20	Invoice saving failed. Your input has been retained.
+N21	Invoice saved successfully.
+N22	Invalid or read-only cell.
+N23	Save the invoice and all changes before printing.
+N24	No saved items exist for this invoice.
+N25	Print processing is not yet available.
+N26	Enter a delivery or select one row.
+P01	Item Count
+P02	Invoice Count
+Q01	Discard unsaved changes and open the selected invoice?
+Q02	Discard unsaved changes and exit?
+Q03	Discard unsaved changes and switch to display mode?
+R01	Unable to read or display Shipping Remark.
+R02	Excel upload processing is not yet available.
+R03	Unable to load Packing Type domain values.
+R04	Enter a value for:
+R05	Enter a valid date.
+R06	Select a valid Packing Type.
+R07	Payment Term does not exist.
+R08	Incoterms does not exist.
+R09	Unable to update the screen field.
+R10	Unable to read Shipping Remark text.
+R11	Select an invoice to copy.
+R12	Items belong to another delivery.
+R13	Replace the current header and Shipping Remark?
+R14	Assign an invoice number before saving Shipping Remark.
+R15	Unable to save Shipping Remark text.
+R16	Invoice saving is not yet implemented.
+R17	Leave this screen? Unsaved changes will be lost.
+S01	Shipping Point
+S02	Planned GI Date
+S03	Sold-to Party
+S04	Ship-to Party
+S05	Delivery Number
+T01	Selection
+T03	Print Form
+T04	Packing List Upload
+W01	Packing master is missing. Weight, volume and box quantity are zero.
+W02	Box quantity is invalid or zero. Carton quantity is zero.
