@@ -1,0 +1,38 @@
+ZSDR0151 LOCAL STATIC REVIEW
+Not an SAP activation or runtime test.
+
+PASS FORM targets: 63 definitions; 120 calls; missing=[]
+PASS Unique FORM names
+PASS ZSDR0151_0110_SE51.txt module targets: []
+PASS ZSDR0151_0110_SE51.txt program binding
+PASS ZSDR0151_0200_SE51.txt module targets: []
+PASS ZSDR0151_0200_SE51.txt program binding
+PASS ZSDR0151_0100_SE51.txt module targets: []
+PASS ZSDR0151_0100_SE51.txt program binding
+PASS Include zsdr0151_top
+PASS Include zsdr0151_cls
+PASS Include zsdr0151_scn
+PASS Include zsdr0151_f01
+PASS Include zsdr0151_o01
+PASS Include zsdr0151_i01
+PASS Text symbol completeness: []
+PASS Text symbol length <=132
+PASS No legacy selection / docking object
+PASS Currency DB mapping explicit
+PASS FAE overview retains item keys
+PASS No direct NRIV mutation
+PASS Confirmation compares Y
+PASS No NUMC3 carton clamp
+PASS ZSDR0151_I01.abap structural delimiters: []
+PASS ZSDR0151_O01.abap structural delimiters: []
+PASS ZSDR0151_SCN.abap structural delimiters: []
+PASS ZSDR0151.abap structural delimiters: []
+PASS ZSDR0151_F01.abap structural delimiters: []
+PASS ZSDR0151_CLS.abap structural delimiters: []
+PASS ZSDR0151_TOP.abap structural delimiters: []
+PASS Vector: 2 CS x12 EA, 250 G/EA =>6 KG
+PASS Vector: 24 EA x1000 CM3/EA =>0.024 M3
+PASS Vector: 100 USD per10 EA, 12 EA/CS =>120 USD/CS
+PASS Vector: 2 CS =>240 USD external
+PASS Vector: KRW external800=>internal8 (2 internal decimals)
+PASS Vector: USD external800=>internal800 (2 currency decimals)
